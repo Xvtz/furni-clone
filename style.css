@@ -1,0 +1,133 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Inter&family=Mochiy+Pop+One&family=Montserrat:wght@600&family=Outfit:wght@400;700&family=Poppins:wght@400;500&family=Prata&family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Poppins";
+}
+
+
+body{
+}
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    background: #3B5D50;
+    overflow: hidden;
+    padding-bottom: 20rem;
+}
+
+nav {
+
+    justify-content: space-between;
+    color: white;
+    padding: 1.6rem 7rem;
+    /* background-color: gray; */
+    max-width: 100%;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu {
+    gap: 5rem;
+}
+
+nav ul {
+    gap: 3.5rem
+}
+
+.user-cart {
+    gap: 2rem;
+}
+
+/* home-content-section */
+
+.home-content {
+    padding-inline:7rem;
+    /* background-color: aqua; */
+    display: flex;
+    position: relative;
+    padding-top: 5rem;
+   
+   
+}
+
+      /* left-content */
+
+
+.left-content {
+    max-width: 26rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* background-color: gray; */
+    z-index: 3;
+    
+}
+
+.left-content h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.left-content p {
+    color: #adb5bd;
+    line-height: 1.5;
+}
+
+.btns {
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.shop {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.shop:hover {
+    background-color: rgb(152, 152, 0);
+    color: white;
+}
+
+.explore {
+    border: 2px solid #adb5bd;
+    color: white;
+    cursor: pointer;
+}
+
+.explore:hover {
+    border-color: white;
+}
+
+/* right-content */
+.right-content {
+    position: absolute;
+    
+    right: -5rem;
+    z-index: 2;
+}
+
+.dots {
+    position: absolute;
+    right: 1rem;
+    top: -1rem;
+    overflow: hidden;
+    /* background-color: #000; */
+}
+
+.couch {
+    position: absolute;    
+    right: 0px;
+    height: 30rem;
+    top: -4rem;
+    /* background: pink; */
+
+}

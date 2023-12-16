@@ -1,0 +1,309 @@
+
+/* background-color:  #efefefe7; */
+
+
+
+
+@media (min-width:1024px) {
+    .container {
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .why-choose-content{
+        display: flex;
+
+    }
+    .why-choose-content .content-left{
+     
+        width: 50%;
+    }
+    .why-choose-img{
+        left: -8rem;
+        
+    }
+    .why-choose-content .content-right{
+        /* background: white; */
+         display: flex;
+        width: 50%;
+        /* padding-left: 10rem; */
+    }
+    .why-choose-content .content-right .img{
+        width: 25rem;
+    }
+
+}
+
+@media (min-width:460px) {
+
+    .images{
+        position: relative;
+        height: 30rem;
+        width: 27rem;
+        margin: auto;
+        /* background: #000; */
+    }
+    .dots-green{
+        position: absolute;
+        left: -5rem;
+        top: -5rem;
+    }
+    .img-grid-1{
+        position: absolute;
+        width: 18rem;
+        border-radius: 1rem;
+    }
+    .img-grid-2{
+        position: absolute;
+        width: 8.1rem;
+        border-radius: 1rem;
+        right: 0;
+    }
+    .img-grid-3{
+        position: absolute;
+        width: 11rem;
+        border-radius: 1rem;
+        top: 9rem;
+        right: 0;
+    }
+    
+
+}
+
+
+
+@media (min-width:540px) {
+
+
+    .images{
+        position: relative;
+        height: 35rem;
+        width: 31rem;
+        margin: auto;
+        /* background: #000; */
+    }
+    .dots-green{
+        position: absolute;
+        left: -5rem;
+        top: -5rem;
+    }
+    .img-grid-1{
+        position: absolute;
+        width: 21rem;
+        border-radius: 1rem;
+    }
+    .img-grid-2{
+        position: absolute;
+        width: 9rem;
+        border-radius: 1rem;
+        right: 0;
+    }
+    .img-grid-3{
+        position: absolute;
+        width: 18rem;
+        border-radius: 1rem;
+        top: 10rem;
+        right: 0;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:700px) {
+
+    .featured-content ,  .why-choose-content ,.why-choose-2{
+        padding-inline: 4rem;
+    }
+  
+}
+@media (min-width:1024px) {
+
+    nav,
+    .home-content,
+    .footer , .featured-content , .why-choose-content {
+        padding-inline: 4rem;
+    }
+
+    .why-choose-2 .content{
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .why-choose-2 .img-wraper{
+        width: 60%;
+    }
+    .why-choose-2 .right{
+        width: 40%;
+    }
+}
+@media (max-width:1024px) {
+
+    nav .menu ul {
+        display: none;
+    }
+
+    nav,
+    .home-content,
+    .footer  {
+        padding-inline: 4rem;
+    }
+}
+
+
+
+
+@media (max-width:700px) {
+
+    .left-content h1 {
+        font-size: 2rem;
+    }
+
+    nav,
+    .home-content,
+    .footer {
+        padding-inline: 2rem;
+    }
+}
+
+
+
+@media (min-width:700px) {
+
+    .hero-section {
+        padding-bottom: 10rem;
+    }
+
+    .right-content {
+        right: 0rem;
+    }
+
+
+}
+
+@media (max-width:700px) {
+
+    .right-content {
+        top: 20rem;
+    }
+
+    footer .input {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+
+/* buttons */
+@media (max-width:700px) {
+    .btn {
+        font-size: 1rem;
+        padding: .5rem 1.3rem;
+        width: fit-content;
+        border-radius: 2rem;
+    }
+}
+
+
+
+
+
+
+
+/* featured-section */
+
+
+
+@media (min-width:1000px) 
+{
+
+
+    .featured-content{
+        display: flex;
+        /* background: red; */
+        /* width: 100vw; */
+    }
+
+
+    .description {
+        /* width: 15rem; */
+        width: 25%;
+        /* background: #000; */
+    }
+
+
+
+    .products{
+          width: 75%;
+          /* background: gray; */
+    }
+}
+
+
+@media (min-width:768px) {
+
+    .products {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/* footer */
+
+
+
+
+@media (min-width:768px) {
+    .upper-footer-right {
+
+        flex-direction: row;
+
+    }
+
+    .upper-footer-right .box {
+        width: 50%;
+    }
+
+    .subscription img {
+        right: 8%;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+    .subscription {
+        margin-top: 17rem;
+    }
+
+    .subscription img {
+        top: 0;
+    }
+
+    .lower {
+        flex-direction: column;
+    }
+
+    .box-container {
+        flex-direction: column;
+        line-height: 1;
+    }
+
+
+}

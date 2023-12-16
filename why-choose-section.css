@@ -1,0 +1,94 @@
+
+.why-choose-section{
+    background-color:  #efefefe7;
+}
+
+.why-choose-content{
+    padding: 2rem 1rem;
+    background-color:  #efefefe7;
+    /* background-color: red; */
+
+}
+.why-choose-content .content-left{
+    max-width: 45rem;
+    /* background: #000; */
+    /* margin: auto; */
+    
+}
+.why-choose-content .content-left p{
+  
+   color: gray;
+   padding-top: 1rem;
+
+}
+
+ .why-choose-about{
+display: flex;
+padding-top: 2rem;
+    
+}
+
+.why-choose-about div p{
+    color: gray;
+
+    
+}
+.why-choose-about div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.why-choose-about div img{ 
+    height: 3rem;
+    width: 3rem;   
+}
+
+
+
+
+
+/* .content-right */
+
+
+
+.content-right{
+    /* background: blue; */
+}
+
+
+.why-choose-img{
+   
+    position: relative;   
+    max-width: 35rem;
+    margin: auto;
+    padding: 5rem 0;
+    height: 40rem;
+}
+
+
+/* problem-occurs-in-indexing */
+
+
+
+.why-choose-img .img{
+    /* background: #000; */
+    height: 40rem;
+    max-width: 30rem;
+    position: absolute;
+    z-index:2;
+}
+.img img{
+    width: 100%;
+    border-radius: 1.7rem; 
+ 
+}
+
+.why-choose-img .yellow-dots {
+    position: absolute;
+    top: 0rem;
+    left: -6rem;
+    z-index: 1;
+}
+
